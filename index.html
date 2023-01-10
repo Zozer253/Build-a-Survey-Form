@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
     
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form action="" id="survey-form">
+        <label id="name-label" for="name">Name<input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+        <label id="#email-label" for="email">Email<input type="email" name="email" id="email" placeholder="Enter your Email" required></label>
+        <label id="#number-label" for="number">Age(optional)<input type="number" name="" id="number" min="10" max="99" placeholder="Age"></label>
+        <fieldset>
+            <label for="dropdown">Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option value="">select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">other</option>
+                </select>
+            </label>
+
+        
+            <label for=""> Would you recommend freeCodeCamp to a friend?
+            <label for=""><input type="radio" name="friend" id="definitely">Definitely</label>
+            <label for=""><input type="radio" name="friend" id="maybe">Maybe</label>
+            <label for=""><input type="radio" name="friend" id="not_sure">Not sure</label>
+            </label>
+        </fieldset>
+
+        <label for="dropdown2">What is your favorite feature of freeCodeCamp?
+            <select name="dropdown" id="dropdown2">
+                <option value="">select an option</option>
+                <option value="6">Challanges</option>
+                <option value="7">Project</option>
+                <option value="8">Community</option>
+                <option value="9">Open Source</option>
+            </select>
+        </label>
+
+
+    </form>
 </body>
 </html>
